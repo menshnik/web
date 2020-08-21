@@ -28,8 +28,8 @@ table{font-size:100%}
 @font-face{font-family:'Cricket';src:url(/_s/t/1713/cricket-bold_12369.eot);src:url(/_s/t/1713/cricket-bold_12369.eot) format('embedded-opentype'),url(/_s/t/1713/cricket-bold_12369.woff) format('woff'),url(/_s/t/1713/cricket-bold_12369.ttf) format('truetype'),url(/_s/t/1713/cricket-bold_12369.svg#CricketBold) format('svg')}
 button,html,input,select,textarea{color:#10302d}
 body{background:#fff;font:13px Arial,sans-serif;line-height:1.5}
-body.base{background:#30273d url(https://github.com/menshnik/web/_s/t/1713/bg_forest_1.jpg) no-repeat 0 0;position:relative}
-body.base::before{content:'';background:url(https://github.com/menshnik/web/_s/t/1713/bg_pattern.png) 0 0;display:block;position:absolute;top:0;bottom:0;pointer-events:none;left:0;right:0}
+body.base{background:#30273d url(https://menshnik.github.io/web/bg_forest_1.jpg) no-repeat 0 0;position:relative}
+body.base::before{content:'';background:url(https://menshnik.github.io/web/bg_pattern.png) 0 0;display:block;position:absolute;top:0;bottom:0;pointer-events:none;left:0;right:0}
 ::-moz-selection{background:#b3d4fc;text-shadow:none}
 ::selection{background:#b3d4fc;text-shadow:none}
 hr{display:block;margin:10px 0;padding:0;height:0;border:0;border-bottom:1px dotted #10302d}
@@ -60,7 +60,7 @@ input[type=button]#order-button{padding:0 5px}
 .header{color:#fff;margin:0 auto 20px;position:relative}
 .logo-b{display:inline-block;padding:30px 0}
 .logo-lnk,.logo-name{text-transform:uppercase;color:#fff}
-.logo-lnk{display:inline-block;text-align:center;margin:0!important;padding:100px 20px 0!important;background:url(/_s/t/1713/logo.png) no-repeat 50% 0;font-size:2.5em;-webkit-transition:color .3s;-o-transition:color .3s;transition:color .3s}
+.logo-lnk{display:inline-block;text-align:center;margin:0!important;padding:100px 20px 0!important;background:url(https://menshnik.github.io/web/logo.png) no-repeat 50% 0;font-size:2.5em;-webkit-transition:color .3s;-o-transition:color .3s;transition:color .3s}
 .logo-lnk:hover{color:#fff}
 .logo-name{margin-top:20px;font:2.578462em 'cricket',sans-serif;white-space:nowrap}
 .sidetitle{padding-bottom:15px;text-align:center;font-size:1.5385em;line-height:1.2}
