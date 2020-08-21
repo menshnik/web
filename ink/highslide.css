@@ -1,5 +1,5 @@
  .highslide {
-	cursor: url(/inc/graphics/zoomin.cur), pointer;
+	cursor: url(https://menshnik.github.io/web/inc/graphics/zoomin.cur), pointer;
     outline: none;
 }
 .highslide IMG {
@@ -29,7 +29,7 @@
     background-color: black;
     
     padding-left: 22px;
-    background-image: url(/inc/graphics/loader.gif);
+    background-image: url(https://menshnik.github.io/web/inc/graphics/loader.gif);
     background-repeat: no-repeat;
     background-position: 3px 1px;
    
