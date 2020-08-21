@@ -60,7 +60,7 @@ input[type=button]#order-button{padding:0 5px}
 .header{color:#fff;margin:0 auto 20px;position:relative}
 .logo-b{display:inline-block;padding:30px 0}
 .logo-lnk,.logo-name{text-transform:uppercase;color:#fff}
-.logo-lnk{display:inline-block;text-align:center;margin:0!important;padding:100px 20px 0!important;background:url(https://menshnik.github.io/web/s/logo.png) no-repeat 50% 0;font-size:2.5em;-webkit-transition:color .3s;-o-transition:color .3s;transition:color .3s}
+.logo-lnk{display:inline-block;text-align:center;margin:0!important;padding:100px 20px 0!important;background:url(/s/logo.png) no-repeat 50% 0;font-size:2.5em;-webkit-transition:color .3s;-o-transition:color .3s;transition:color .3s}
 .logo-lnk:hover{color:#fff}
 .logo-name{margin-top:20px;font:2.578462em 'cricket',sans-serif;white-space:nowrap}
 .sidetitle{padding-bottom:15px;text-align:center;font-size:1.5385em;line-height:1.2}
