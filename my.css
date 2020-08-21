@@ -28,8 +28,8 @@ table{font-size:100%}
 @font-face{font-family:'Cricket';src:url(/_s/t/1713/cricket-bold_12369.eot);src:url(/_s/t/1713/cricket-bold_12369.eot) format('embedded-opentype'),url(/_s/t/1713/cricket-bold_12369.woff) format('woff'),url(/_s/t/1713/cricket-bold_12369.ttf) format('truetype'),url(/_s/t/1713/cricket-bold_12369.svg#CricketBold) format('svg')}
 button,html,input,select,textarea{color:#10302d}
 body{background:#fff;font:13px Arial,sans-serif;line-height:1.5}
-body.base{background:#30273d url(https://github.com/menshnik/web/master/bg_forest_1.jpg) no-repeat 0 0;position:relative}
-body.base::before{content:'';background:url(https://github.com/menshnik/web/master/bg_pattern.png) 0 0;display:block;position:absolute;top:0;bottom:0;pointer-events:none;left:0;right:0}
+body.base{background:#30273d url(https://menshnik.github.io/web/master/bg_forest_1.jpg) no-repeat 0 0;position:relative}
+body.base::before{content:'';background:url(https://menshnik.github.io/web/master/bg_pattern.png) 0 0;display:block;position:absolute;top:0;bottom:0;pointer-events:none;left:0;right:0}
 ::-moz-selection{background:#b3d4fc;text-shadow:none}
 ::selection{background:#b3d4fc;text-shadow:none}
 hr{display:block;margin:10px 0;padding:0;height:0;border:0;border-bottom:1px dotted #10302d}
