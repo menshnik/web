@@ -1,0 +1,20 @@
+
+.cn{
+	position:absolute;
+	width:4px;
+	height:4px;
+	left:-2px;
+	top:-2px;
+}
+
+.tr,.br {
+	margin-left:100%;
+}
+
+.bl, .br {
+	top:auto;
+}
+
+.tl, .bl {
+	width:100%;
+} 

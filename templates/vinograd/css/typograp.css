@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  font-weight: inherit;
+  font-style: inherit;
+  font: 100% Thaoma, Arial, Helvetica, sans-serif;
+}
+/* remember to define focus styles! */
+body {
+  line-height: 1;
+  font: 100% Thaoma, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+
+body  {
+
+}
+
+h1, h2, h3{
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	text-indent: 0;
+	line-height: 160%
+}
+
+h1, h2{
+	color: #d7b2d4;
+	font-size: 150%;
+}
+
+#main-text {
+	font-size: 90%;
+	line-height: 140%;
+	text-indent: 20px;
+}
+
+#main-text p {
+	text-indent: 10px;
+	line-height: 140%;
+}
+
+#main-text h1 {
+	display:block;
+	padding-bottom: 10px;
+	line-height: 140%;
+}
+
+
+a{
+	text-decoration:none;
+	color:#FFF;
+}
+a:hover{
+	text-decoration:underline;
+	cursor: pointer;
+}
+
+.italic-block {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+	font-style: italic;
+	font-size: 80%;
+}
+
+.o-vinogradare .italic-block {
+	color: #2b1d36;
+}
+
+.o-vinogradare  a.italic-block  {
+	color: #9c3c85;
+}
+
+.o-vinogradare .italic-block h3 {
+	font-style: italic;
+	font-size: 120%;
+	font-weight:bold;
+	line-height: 100%;
+}
+
+#header div.phone {
+	font-size: 150%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+#menu-top a:link, menu-top a:visited{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#menu-top a:hover {
+	color:#FFF;
+	text-decoration: underline;
+}
+
+#menu-top #current a, #menu-top li.active a {
+	color:#FFF;
+	text-decoration:none;
+	
+}
+
+.main-grape{
+	font-size: 80%;
+}
+
+.details-grape{
+	font-size: 90%;
+}
+
+.grape-title a:hover{
+	color: #d7b2d4;
+	text-decoration:none;
+}
+
+h1.grape-title{
+	font-size:240%;
+	line-height:100%;
+}
+
+.grape-tagsname{
+	color: #d7b2d4;
+	line-height:140%;
+}
+
+.grape-tags{
+	line-height:140%;
+}
+
+.grape-pricetitle h2{
+	color:#FFF;
+	font-size:180%;
+	line-height:100%
+}
+
+.grape-price {
+	font-size:150%;
+
+}
+
+.grape-price .min-price {
+	color: #d3b2cd;
+}
+
+.grape-price .max-price {
+	color: #f79b8a;
+	font-size:150%;
+}
+
+.price-download{
+	font-size:90%;
+	color: #787778;
+
+}
+
+#copyright {
+	font-size: 10px;
+}

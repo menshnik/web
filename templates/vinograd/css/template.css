@@ -1,0 +1,26 @@
+/* Design by Brian Diaz of Media 65 @ http://www.m65.net  All Rights Reserved */
+@import url(layouts0.css);
+@import url(typograp.css);
+@import url(backgrou.css);
+@import url(r-star00.css);
+@import url(componen.css);
+@import url(modules0.css);
+@import url(navigati.css);
+@import url(misc0000.css);
+@import url(forms000.css);
+
+/* #######################  GENERAL SETTINGS ############################ */
+html{height:100%;}
+
+body{
+margin:0px;
+height:100%;
+font-size: 1em;
+}
+/*links*/
+img {border: 0 none;}
+
+/* Clears Divs */
+.clr{clear: both;}
+
+/* #######################  END GENERAL SETTINGS ############################ */
