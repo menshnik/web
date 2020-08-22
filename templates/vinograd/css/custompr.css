@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+
+/* -----------------------------------------*/
+div.cp_ce_label{
+	color: #888;
+}
+
+.search_summary{
+	padding: 0 0 10px 0;
+}
+
+div.cp_result{
+	text-indent: 0;
+	position:relative;
+	border-top : 1px dotted silver;
+	padding : 8px 0;
+	margin: 0;
+	height: 176px;
+	width: 646px;
+}
+
+a.cp_details{
+	position: absolute;
+	display:block;
+	left: 156px;
+	top: 10px;
+	padding: 3px 3px 3px 7px;
+	width: 83px;
+	height: 18px;
+	font-size: 90%;
+}
+
+
+div.cp_price {
+	position: absolute;
+	display:block;
+	left:476px;
+	top: 123px;
+	padding: 8px 0px 0px 40px;
+	width: 127px;
+	height: 51px;
+	font-size: 90%;
+	line-height: 160%;
+}
+
+div.cp_price span.min {
+	font-weight:bold;
+	font-size: 120%;
+	color: #d7b2d4;
+}
+
+div.cp_price span.max {
+	color: #f79b8a;
+	font-size: 140%;
+	font-weight:bold;
+}
+
+div.cp_title{
+	position: absolute;
+	text-indent: 0;
+	left: 156px;
+	top: 37px;
+	font-size : 140%;
+	font-weight: bold;
+	z-index: 6;
+	width: 490px;
+}
+
+div.cp_title a,
+div.cp_tags a{
+	text-decoration : none;
+}
+div.cp_title a:hover{
+	color: #d7b2d4;
+	text-decoration : none;
+}
+
+div.cp_text{
+	position: absolute;
+	font-size: 80%;
+	top: 67px;
+	left: 156px;
+	margin : 0 4px 4px 0;
+	z-index: 3;
+	width: 490px;
+	height: 68px;
+}
+
+div.cp_text p{
+	display:inline;
+	text-indent: 0;
+}
+
+div.cp_image{
+	position: absolute;
+	text-align: left;
+	top: -54px;
+	left: -156px;
+	float : right;
+	width: 150px;
+	margin : 0;
+}
+
+div.cp_tags{
+	position: absolute;
+	top: 122px;
+	left: 156px;
+	font-size : 90%;
+	clear : both;
+	width: 290px;
+	overflow:hidden;
+	z-index: 4;
+}
+
+div.cp_tags .cp_tag{
+	float:left;
+	padding : 0 .25em;
+	
+}
+div.cp_tags .cp_tag a{
+	margin : 3px;
+	color: #d7b2d4;
+}
+div.cp_tags a:hover{
+	color: #d7b2d4;
+	background : #5e2759;
+}
+div.cp_tags span.cp_tag+span.cp_tag{
+	border-left : 1px solid silver;
+}
+
+// Frontend tagging
+div.header{
+	padding : 10px;
+	font-size : 22px;
+	color : #0b55c4;
+}
+div.cp_info{
+	padding : 5px 10px;
+	font-size : 12px;
+}
+div.cp_navbar{
+	margin : 4px 0;
+	background :#CCC;
+	padding : 4px 10px;
+}
+div.cp_field{
+	float : left;
+	border : 1px solid #888;
+	padding : 2px;
+	margin : 4px;
+	font-size : 11px;
+}
+div.cp_field_label{
+	font-weight : bold;
+	color : white;
+	background : #800;
+	margin :0 ;
+	padding :4px;
+}

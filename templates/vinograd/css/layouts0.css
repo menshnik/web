@@ -1,0 +1,407 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+ol, ul {
+  list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+blockquote, q {
+  quotes: "" "";
+}
+
+body {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: left; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+}
+img {
+	border:none;
+	margin: 0px;
+	padding: 0px;
+	outline:none
+}
+
+p {
+	margin: 0px;
+	padding-top: 10px;
+}
+
+#background-all {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	width: 1100px;
+	text-align:left
+}
+#background-top {
+	overflow-x: hidden;
+	overflow-y: visible;
+	position: absolute;
+	width: 1100px;
+	height: 555px;
+	left: 0px;
+}
+#container {
+	position:relative;
+	width: 940px;
+	z-index:1;
+	margin-left: 80px;
+}
+#header {
+	height: 108px;
+	position: relative;
+}
+#header a.logo {
+	cursor:pointer;
+	display:block;
+	height:72px;
+	position:absolute;
+	top:14px;
+	width:268px;
+}
+#header div.phone {
+	display:block;
+	height:72px;
+	position:absolute;
+	top:14px;
+	left:667px;
+	width:270px;
+}
+#header div.phone img.thumb {
+	float: left;
+}
+#header div.phone div.phone-number {
+	text-align:left;
+	position:relative;
+	padding: 14px 0 0 60px;
+}
+#main_banner {
+	position:relative;
+	height:272px;
+	width:940px;
+	padding-top: 13px;
+	z-index:3;
+}
+#menu-top {
+	position: relative;
+	height: 68px;
+	padding-top: 30px;
+	width:100%;
+}
+.mt {
+	position: relative;
+	right: 50%;
+	float: right;
+}
+#menu-top ul {
+	position: relative;
+	right: -50%;
+	height: 46px;
+	margin: 0px;
+	padding: 0px;
+}
+#menu-top li {
+	display: block;
+	height: 46px;
+	float: left;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 4px;
+	position: relative;
+}
+#menu-top li a {
+	display: block;
+	height: 46px;
+	padding: 0px 4px 0px 0px;
+}
+#menu-top li a span {
+	display: block;
+	height: 46px;
+	line-height: 280%;
+	cursor: pointer;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#mainpart {
+	position: relative;
+	width: 100%;
+	float: none;
+}
+#mainpart:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+#main-center {
+	width: 650px;
+	display:block;
+	position: relative;
+	float: left;
+	padding: 0 30px 0 0;
+	min-height: 300px;
+}
+
+#main-center img {
+	padding: 0 18px 8px 0;
+	text-indent: 0;
+}
+
+#footer {
+	height: 80px;
+	position: relative;
+	z-index: 2;
+}
+
+.main-grape{
+	position:relative;
+	overflow:hidden;
+	padding:2px 0;
+	margin-bottom: 10px;
+}
+
+.main-grape .content{
+	padding: 16px 0 16px 286px;;
+	position: relative;
+	height: 324px;
+}
+
+.main-grape .content p{
+	display:inline;
+}
+
+.main-grape .content .pirobox{
+	position: absolute;
+	z-index: 3;
+	left: 16px;
+	top: 16px;
+}
+
+.details-grape{
+	position:relative;
+	overflow:hidden;
+	margin-bottom: 10px;
+	text-indent: 0;
+}
+
+.details-grape .content{
+	padding: 16px 0 16px 286px;;
+	position: relative;
+	height: 310px;
+
+}
+
+.details-grape .content p{
+	display:inline;
+}
+
+.details-grape .content .pirobox{
+	position: absolute;
+	z-index: 3;
+	left: 0px;
+	top: 16px;
+}
+
+.grape-title{
+	display:block;
+	position:relative;
+}
+
+.details{
+	position: relative;
+	text-align:left;
+	padding: 8px 0 0 0; 
+	text-indent: 0;
+}
+
+.details a{
+	display:block;
+	width:83px;
+	height: 18px;
+	padding: 3px 3px 3px 7px;
+	text-indent: 0;
+}
+
+.grape-tagsname{
+	display:block;
+	float:left;
+	padding: 10px 10px 10px 6px;
+}
+	
+.grape-tags{
+	display:block;
+	min-width:120px;
+	float:left;
+	padding: 10px 10px 10px 6px;
+}
+
+.grape-pricetitle {	
+	display: block;
+	position: relative;
+	clear:both;
+	float:left;
+	padding: 6px 0 0 0;
+	width: 137px;
+	height: 44px;
+}
+.grape-price {
+	display: block;
+	position: relative;
+	height: 44px;
+	float:right;	
+	padding: 12px 20px 0 0;
+}
+.grape-price h1 {
+	display:inline;
+}
+
+#main-text {
+	position:relative;
+	padding: 0 0 10px 10px;
+}
+#right-column {
+	display: block;
+	width: 260px;
+	float:right;
+	position: relative;
+	min-height: 300px;
+	right: 0px;
+	padding-bottom: 30px;
+}
+#right-column:after {
+	clear:both;
+
+}
+
+.o-vinogradare{
+	position:relative;
+	overflow:hidden;
+	padding: 2px 0 2px 0;
+}
+
+.o-vinogradare .content{
+	text-align:right;
+	padding-top: 300px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 0;
+	position: relative;
+}
+
+.o-vinogradare .content a.vinogradar-title{
+	position:absolute;
+	display:block;
+	top: 10px;
+	left: 10px;
+	width: 150px;
+	height: 24px;
+}
+
+.o-vinogradare .content a.vinogradar-image{
+	position:absolute;
+	display:block;
+	top: 43px;
+	left: 22px;
+	width: 215px;
+	height: 249px;
+}
+
+.main-pricebar{
+	top:30px;
+	position:relative;
+	display:block;
+	overflow:hidden;
+	padding: 2px 0 2px 0;
+}
+
+.main-pricebar .content{
+	padding: 46px 14px 14px 48px;
+	position: relative;
+	height: 60px;
+}
+
+.main-pricebar .content a.pricebar-title{
+	position:absolute;
+	display:block;
+	top: 10px;
+	left: 42px;
+	width: 174px;
+	height: 25px;
+}
+
+.price-download{
+	position:relative;
+	height:43px;
+	width: 177px;
+	padding: 8px 0 0 0;
+}
+.price-download img{
+	display:block;
+	float:left;
+	padding: 0 6px 0 0;
+}
+
+#copyright {
+	position:absolute;
+	left: 400px;
+	top: 50px;
+}
+
+#footer-logo{
+	display:block;
+	width: 120px;
+	height: 34px;
+	position: absolute;
+	left: 10px;
+	top: 38px;
+}
+
+#footer-ak{
+	display:block;
+	width: 62px;
+	height: 17px;
+	position: absolute;
+	left: 850px;
+	top: 48px;
+}
+.pagination span{
+	padding-right: 4px;
+}
+.pagination a{
+	padding-right: 4px;
+}
+
+.bookmarks{
+	position:relative;
+	top: 60px;
+	left: 40px;
+	height:30px;
+	width:180px;
+	padding:5px 0 0 15px;
+}
