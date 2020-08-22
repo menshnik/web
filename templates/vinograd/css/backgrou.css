@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	background: #2b1d36;
+	background-attachment: scroll;
+	background-color: #2b1d36;
+	background-image: url(bg-desks.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+
+#background-all{
+	background-attachment: scroll;
+	background-image: url(bg-botto.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#background-top{
+	background-attachment: scroll;
+	background-image: url(bg-top00.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#header a.logo {
+	background-attachment: scroll;
+	background-image: url(logo0000.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#menu-top li, #menu-top a, #menu-top a span {
+	background-image: url(button00.png);
+}
+
+#menu-top li:hover, #menu-top a:hover, #menu-top a span:hover  {
+	background-image: url(http://vinograd-ermakova.com.ua/templates/vinograd_joomla/images/button-hover.png);
+}
+
+#menu-top li.active, #menu-top li.active a, #menu-top li.active a span  {
+	background-image: url(http://vinograd-ermakova.com.ua/templates/vinograd_joomla/images/button-active.png);
+}
+
+#menu-top li {
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#menu-top a {
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: right -92px;
+}
+
+#menu-top a span {
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-position: left -46px;
+}
+
+.main-grape .cn{
+	background-image: url(main-gra.png);
+}
+
+.main-grape .content{
+		background-color: #45344a;
+}
+.main-grape-img .cn{
+	background-image: url(http://vinograd-ermakova.com.ua/templates/vinograd_joomla/images/main-grape-border.png);
+}
+
+.main-grape-img .content{
+		background-color: #5f4f61;
+}
+
+
+.o-vinogradare .cn{
+	background-image: url(main-ovi.png);
+}
+
+.o-vinogradare .content{
+		background-color: #f0f4d0;
+}
+
+.o-vinogradare .content .vinogradar-title{
+	background-image: url(vinorgad.png);	
+}
+
+.main-pricebar .cn{
+	background-image: url(main-pri.png);
+}
+
+.main-pricebar .content{
+		background-color: #3f3241;
+}
+
+.main-pricebar .content .pricebar-title{
+	background-image: url(price-ti.png);
+}
+
+.details a, a.cp_details{
+	background-attachment: scroll;
+	background-image: url(details0.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+div.cp_price {
+	background-attachment: scroll;
+	background-image: url(http://vinograd-ermakova.com.ua/templates/vinograd_joomla/images/price.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+#footer-logo{
+	background-attachment: scroll;
+	background-image: url(logo-foo.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;	
+}
+
+#footer-ak{
+	background-attachment: scroll;
+	background-image: url(ak-desig.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.bookmarks{
+	background-attachment: scroll;	
+	background-image: url(bookmark.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
