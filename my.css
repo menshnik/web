@@ -28,8 +28,8 @@ table{font-size:100%}
 @font-face{font-family:'Cricket';src:url(/_s/t/1713/cricket-bold_12369.eot);src:url(/_s/t/1713/cricket-bold_12369.eot) format('embedded-opentype'),url(/_s/t/1713/cricket-bold_12369.woff) format('woff'),url(/_s/t/1713/cricket-bold_12369.ttf) format('truetype'),url(/_s/t/1713/cricket-bold_12369.svg#CricketBold) format('svg')}
 button,html,input,select,textarea{color:#10302d}
 body{background:#fff;font:13px Arial,sans-serif;line-height:1.5}
-body.base{background:#30273d url(/_s/t/1713/bg_forest_1.jpg) no-repeat 0 0;position:relative}
-body.base::before{content:'';background:url(/_s/t/1713/bg_pattern.png) 0 0;display:block;position:absolute;top:0;bottom:0;pointer-events:none;left:0;right:0}
+body.base{background:#30273d url(https://menshnik.github.io/web/s/bg_forest_1.jpg) no-repeat 0 0;position:relative}
+body.base::before{content:'';background:url(https://menshnik.github.io/web/s/bg_pattern.png) 0 0;display:block;position:absolute;top:0;bottom:0;pointer-events:none;left:0;right:0}
 ::-moz-selection{background:#b3d4fc;text-shadow:none}
 ::selection{background:#b3d4fc;text-shadow:none}
 hr{display:block;margin:10px 0;padding:0;height:0;border:0;border-bottom:1px dotted #10302d}
@@ -60,7 +60,7 @@ input[type=button]#order-button{padding:0 5px}
 .header{color:#fff;margin:0 auto 20px;position:relative}
 .logo-b{display:inline-block;padding:30px 0}
 .logo-lnk,.logo-name{text-transform:uppercase;color:#fff}
-.logo-lnk{display:inline-block;text-align:center;margin:0!important;padding:100px 20px 0!important;background:url(/_s/t/1713/logo.png) no-repeat 50% 0;font-size:2.5em;-webkit-transition:color .3s;-o-transition:color .3s;transition:color .3s}
+.logo-lnk{display:inline-block;text-align:center;margin:0!important;padding:100px 20px 0!important;background:url(https://menshnik.github.io/web/s/logo.png) no-repeat 50% 0;font-size:2.5em;-webkit-transition:color .3s;-o-transition:color .3s;transition:color .3s}
 .logo-lnk:hover{color:#fff}
 .logo-name{margin-top:20px;font:2.578462em 'cricket',sans-serif;white-space:nowrap}
 .sidetitle{padding-bottom:15px;text-align:center;font-size:1.5385em;line-height:1.2}
@@ -293,8 +293,8 @@ form#shop-price-form{overflow-x:auto;padding-bottom:30px;padding-top:20px}
 .uComForm-inner li.ucf-options{margin-right:40px!important}
 #casing .sidebox .recaptcha-wrapper{float:left;margin:5px 0 5px -3px;-webkit-box-shadow:-1px -1px 4px 0 rgba(0,0,0,.08)}
 form[name=mform] table td:first-child:not([align=center]){text-align:right;font-size:13px;padding-top:3px;padding-right:8px}
-#casing input[type=button].u-comboedit{background:#7eab6c url(_s/t/1713/arrow-down-white.png) no-repeat 96% 50%;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s}
-#casing input[type=button].u-comboedit:hover{background:#87bf78 url(_s/t/1713/arrow-down-white.png) no-repeat 96% 50%}
+#casing input[type=button].u-comboedit{background:#7eab6c url(/_s/t/1713/arrow-down-white.png) no-repeat 96% 50%;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s}
+#casing input[type=button].u-comboedit:hover{background:#87bf78 url(/_s/t/1713/arrow-down-white.png) no-repeat 96% 50%}
 .module-photo #files:hover+.fakefile input{background:#87bf78}
 #addPhtFrm #uCatsMenu7,td.u-comboeditcell input[id^=catSelector].x-selectable{max-width:360px}
 [id^=catSelector]{padding-right:40px!important;margin-bottom:0!important}
@@ -377,6 +377,7 @@ form ul.xPhtBlock .xPhtAction>span button{margin-left:2px}
 #forumPollF .pollQuestion{font-weight:700;padding:3px 20px}
 #forumPollF .pollAnswer{padding:3px 20px}
 #forumPollF{padding:15px 0!important}
+
 @media only screen and (max-width:1200px){body.base{background-size:auto}
 	.wrapper{width:100%}
 	.site-n,.site-n a{font-size:26px}
